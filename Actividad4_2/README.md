@@ -153,7 +153,6 @@ python wordCount.py ../tests/TC1.txt
 python wordCount.py ../tests/TC2.txt
 python wordCount.py ../tests/TC3.txt
 python wordCount.py ../tests/TC4.txt
-python wordCount.py ../tests/TC5.txt
 ```
 
 ## Verificación con PyLint
@@ -196,6 +195,6 @@ Los resultados de cada ejecución se guardan en las carpetas `results` de cada p
 
 ## Autor
 
-**Matrícula:** A01021209  
+**Matrícula:** Ingrid Pamela Ruiz A01021209  
 **Curso:** Pruebas y Calidad de Software  
 **Actividad:** 4.2 - Ejercicios de Programación
