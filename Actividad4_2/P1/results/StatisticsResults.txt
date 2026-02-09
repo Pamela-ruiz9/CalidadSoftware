@@ -1,0 +1,11 @@
+RESULTADOS DE ESTADÍSTICAS DESCRIPTIVAS
+==================================================
+
+Cantidad de números: 400
+Media: 242.3200
+Mediana: 239.5000
+Moda: [393.0, 170.0]
+Varianza: 21099.9176
+Desviación estándar: 145.2581
+
+Tiempo de ejecución: 0.0110 segundos
