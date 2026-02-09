@@ -1,4 +1,11 @@
-# A01021209_A4.2
+## Autor
+
+Matrícula: A01021209
+Nombre: Ingrid Pamela Ruiz P
+
+## Fecha
+
+Febrero 2026
 
 Actividad 4.2 - Ejercicios de Programación en Python
 
@@ -78,10 +85,4 @@ pylint wordCount.py          # 9.90/10
 pip install pylint
 ```
 
-## Autor
 
-Matrícula: A01021209
-
-## Fecha
-
-Febrero 2026
