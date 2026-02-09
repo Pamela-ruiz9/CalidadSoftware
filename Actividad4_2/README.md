@@ -65,12 +65,11 @@ python computeStatistics.py ../tests/TC1.txt
 ```
 
 **Características:**
-- ✅ Implementa algoritmos básicos (sin librerías estadísticas)
-- ✅ Maneja datos inválidos con mensajes de error
-- ✅ Guarda resultados en `../results/StatisticsResults.txt`
-- ✅ Muestra tiempo de ejecución
-- ✅ Cumple con PEP-8
-- ✅ Calificación PyLint: 9.92/10
+- Algoritmos implementados desde cero (sin usar librerías como numpy o statistics)
+- Validación de datos de entrada
+- Los resultados se guardan en `../results/StatisticsResults.txt`
+- Incluye medición de tiempo de ejecución
+- Código verificado con PyLint (9.92/10)
 
 ### P2: convertNumbers.py
 
@@ -83,12 +82,11 @@ python convertNumbers.py ../tests/TC1.txt
 ```
 
 **Características:**
-- ✅ Implementa algoritmos básicos de conversión
-- ✅ Maneja datos inválidos
-- ✅ Guarda resultados en `../results/ConvertionResults.txt`
-- ✅ Muestra tiempo de ejecución
-- ✅ Cumple con PEP-8
-- ✅ Calificación PyLint: 9.90/10
+- Conversión implementada con algoritmos básicos (sin usar bin() o hex())
+- Validación de entrada
+- Resultados en `../results/ConvertionResults.txt`
+- Medición de tiempo de ejecución
+- PyLint: 9.90/10
 
 ### P3: wordCount.py
 
@@ -101,14 +99,11 @@ python wordCount.py ../tests/TC1.txt
 ```
 
 **Características:**
-- ✅ Cuenta palabras distintas y su frecuencia
-- ✅ Ordena por frecuencia (descendente)
-- ✅ Case-insensitive
-- ✅ Implementa algoritmo de ordenamiento básico (bubble sort)
-- ✅ Guarda resultados en `../results/WordCountResults.txt`
-- ✅ Muestra tiempo de ejecución
-- ✅ Cumple con PEP-8
-- ✅ Calificación PyLint: 9.90/10
+- Conteo de frecuencia de palabras (case-insensitive)
+- Ordenamiento por frecuencia usando bubble sort
+- Resultados en `../results/WordCountResults.txt`
+- Tiempo de ejecución incluido
+- PyLint: 9.90/10
 
 ## Requisitos
 
@@ -189,19 +184,15 @@ Los resultados de cada ejecución se guardan en las carpetas `results` de cada p
 
 3. **Algoritmos básicos:** Todos los cálculos se implementan sin usar librerías especializadas (sin numpy, sin statistics, sin funciones built-in como bin() o hex()).
 
-## Cumplimiento de Requisitos
+## Puntos Clave
 
-- ✅ Implementación en Python
-- ✅ Cumplimiento con estándar PEP-8
-- ✅ Uso de algoritmos básicos
-- ✅ Manejo de errores
-- ✅ Lectura desde línea de comandos
-- ✅ Escritura de resultados en archivos
-- ✅ Medición de tiempo de ejecución
-- ✅ Verificación con PyLint
-- ✅ Estructura de carpetas organizada
-- ✅ Archivos de prueba oficiales
-- ✅ Resultados guardados en carpeta results
+- Los tres programas están en Python siguiendo PEP-8
+- Todos los cálculos/conversiones usan algoritmos básicos
+- Validación de entrada en todos los casos
+- Argumentos por línea de comandos
+- Resultados guardados en archivos de texto
+- Tiempos de ejecución registrados
+- Códigos verificados con PyLint (calificaciones arriba de 9.90)
 
 ## Autor
 
