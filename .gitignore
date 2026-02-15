@@ -21,7 +21,14 @@ env/
 # Sistema operativo
 .DS_Store
 Thumbs.db
+__MACOSX/
+
+# Archivos de apoyo (no subir)
+**/A5.2 Archivos de Apoyo/
 
 # Archivos temporales
 *.tmp
 *.bak
+
+# Archivos PDF (tarea)
+*.pdf
