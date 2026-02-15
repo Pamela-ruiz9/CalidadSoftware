@@ -34,26 +34,23 @@ python computeSales.py tests/TC1/TC1.ProductList.json tests/TC1/TC1.Sales.json
 flake8 source/computeSales.py
 ```
 
-**Resultado**: ✓ Cero errores
-
 ### Estándares Cumplidos
-- ✓ PEP-8 (Python Enhancement Proposal 8)
-- ✓ Sin errores de pycodestyle (E***/W***)
-- ✓ Sin errores de PyFlakes (F***)
-- ✓ Complejidad ciclomática bajo control (C9**)
+-  PEP-8 (Python Enhancement Proposal 8)
+-  Sin errores de pycodestyle 
+-  Sin errores de PyFlakes 
+-  Complejidad ciclomática bajo control 
 
 ## Resultados de Pruebas
 
 | Caso de Prueba | Esperado | Obtenido | Estado |
 |----------------|----------|----------|--------|
-| TC1            | 2481.86  | 2481.86  | ✓ PASÓ |
-| TC2            | 166568.23| 166568.23| ✓ PASÓ |
-| TC3            | 165235.37| 165235.37| ✓ PASÓ |
+| TC1            | 2481.86  | 2481.86  | OK     |
+| TC2            | 166568.23| 166568.23| OK     |
+| TC3            | 165235.37| 165235.37| OK     |
 
-**Tasa de éxito**: 100%
 
 ## Autor
-Actividad 5.2 - Calidad de Software
+Ingrid Pamela Ruiz Puga - A01021209
 
 ## Fecha
 15 de febrero de 2026
