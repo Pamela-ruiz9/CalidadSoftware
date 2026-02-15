@@ -1,0 +1,55 @@
+RESULTADOS DE PRUEBAS - Actividad 5.2
+======================================
+
+Programa: computeSales.py
+Fecha: 15 de febrero de 2026
+
+ANÁLISIS ESTÁTICO
+-----------------
+Herramienta: flake8
+Resultado: ✓ CERO ERRORES
+
+Todos los errores y advertencias fueron corregidos siguiendo el estándar PEP-8.
+
+
+CASOS DE PRUEBA
+---------------
+
+TC1: Ventas pequeñas
+--------------------
+Comando: python computeSales.py TC1.ProductList.json TC1.Sales.json
+Resultado esperado: 2481.86
+Resultado obtenido: 2481.86
+Estado: ✓ PASÓ
+
+
+TC2: Ventas grandes
+-------------------
+Comando: python computeSales.py TC2.ProductList.json TC2.Sales.json
+Resultado esperado: 166568.23
+Resultado obtenido: 166568.23
+Estado: ✓ PASÓ
+
+
+TC3: Ventas con productos no catalogados
+----------------------------------------
+Comando: python computeSales.py TC3.ProductList.json TC3.Sales.json
+Resultado esperado: 165235.37
+Resultado obtenido: 165235.37
+Estado: ✓ PASÓ
+
+Nota: El programa detectó correctamente productos no catalogados (Elotes, Frijoles)
+      y los reportó como advertencias sin afectar el cálculo total.
+
+
+RESUMEN
+-------
+Total de casos de prueba: 3
+Casos pasados: 3
+Casos fallidos: 0
+Tasa de éxito: 100%
+
+Errores de flake8: 0
+Errores de PEP-8: 0
+
+Estado final: ✓ APROBADO
